@@ -262,6 +262,9 @@ Used by the Docker `HEALTHCHECK` and both Kubernetes probes.
 
 ```
 codeforge-agents/
+|__screenshots/
+|  |__dashboard.png
+|  |__agent-trace.png   
 ├── app.py                     # Streamlit UI (pipeline, sidebar, modes)
 ├── core/
 │   ├── config.py              # Central config, secret resolution
