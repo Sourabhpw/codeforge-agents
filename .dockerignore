@@ -21,3 +21,6 @@ DEPLOYMENT.md
 k8s/
 .github/
 Makefile
+
+# Exclude downloaded archive; keep extracted ONNX model for Docker build
+model-download/onnx.tar.gz

@@ -19,3 +19,6 @@ venv/
 .DS_Store
 .idea/
 .vscode/
+
+# Downloaded ONNX archive (extracted model is used by Docker)
+model-download/onnx.tar.gz
